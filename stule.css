@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Silkscreen:wght@700&display=swap');
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/ec/ecc8608ebb9732b0a74cc79493f1a31f.jpeg);
+}
+main{
+    color: #333333;
+    width: 1000px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.header{
+    box-shadow: 10px -5px 5px rgb(16, 20, 18);
+    border-radius:20px;
+    background-color:  rgb(87, 98, 99);
+    color: white;
+    text-align: center;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.header_content{
+    color: black;
+}
+
+.content{
+   
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+}
+.block_left {
+    box-shadow: 10px 5px 5px rgb(16, 20, 18);
+    border-radius:20px;
+    background-color: rgb(87, 98, 99);
+    max-width: 300px;
+}
+.block_right{
+    box-shadow: 10px 5px 5px rgb(16, 20, 18);
+    border-radius:20px;
+    background-color:  rgb(87, 98, 99);
+    margin-left: 15px;
+    max-width: 700px;
+}
+h3{
+    margin: 30px;
+}
+.footer{
+    box-shadow: 10px 5px 5px rgb(16, 20, 18);
+    border-radius:20px;
+    background-color: rgb(87, 98, 99);
+    text-align: center;
+    height: 120px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+img{
+    box-shadow: 10px 5px 5px rgb(16, 20, 18);
+    height: 200px;
+    padding-top : 10px;
+    padding-left: 10px;
+}
+p {
+	padding-top:10px;
+	font-size:40px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(87, 98, 99);
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s ease-in-out;
+ }
+ .one a {
+    border-radius: 10px;
+    color: #EC4D3C;
+    background-color: white;
+    background-image: -webkit-radial-gradient(#FCD2D1 2px, rgba(255, 0, 0, 0) 2px);
+    background-image: -o-radial-gradient(#FCD2D1 2px, rgba(255, 0, 0, 0) 2px);
+    background-image: radial-gradient(#FCD2D1 2px, transparent 2px);
+    background-size: 12px 12px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+ }
+ 
+.third {
+    border-radius: 50px;
+    border-color: rgb(16, 20, 18);
+    color: #333333;
+    box-shadow: 0 0 40px 40px rgb(87, 98, 99) inset, 0 0 0 0 rgb(87, 98, 99);;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 rgb(24, 27, 27) inset , 0 0 10px 4px rgb(24, 27, 27);
+  }
+  
